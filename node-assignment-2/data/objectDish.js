@@ -1,0 +1,22 @@
+var objectDish = {
+    name: "Uthapizzaa",
+    image: "images/uthapizza.png",
+    category: "mains",
+    
+    price: "4.99",
+    description: "A unique . . .",
+    comments: [
+    {
+        rating: 5,
+        comment: "Imagine all the eatables, living in conFusion!",
+        author: "John Lemon"
+    },
+    {
+        rating: 4,
+        comment: "Sends anyone to heaven, I wish I could get my mother-in-law to eat it!",
+        author: "Paul McVites"
+    }
+    ]    
+}
+
+module.exports = objectDish;
